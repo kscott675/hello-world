@@ -5,3 +5,4 @@ services:
     env: ruby # this app is written in ruby
     buildCommand: "./bin/render-build.sh" # we already created these two files for you
     startCommand: "./bin/render-start.sh" 
+    staticPublishPath: ./
